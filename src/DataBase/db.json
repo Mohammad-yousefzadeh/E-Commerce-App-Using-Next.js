@@ -1,0 +1,87 @@
+{
+  "Products": [
+    {
+      "id" : "e3d2k242-4268-8758-74h6-08653651bdgfe" , 
+      "title" : "Apple Air Pods Pro" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 149.23 ,
+      "image" : "/_next/static/media/apple_earphone_image.55d08a2d.png"
+      } , 
+      
+      {
+        "id" : "e3d2k242-4268-8758-74h6-08653651shhfe" , 
+        "title" : "Bose Quite Comfort 45" , 
+        "description" : "Apple Air Pods Pro 2nd gen with...",
+        "price" : 242.4 ,
+        "image" : "/_next/static/media/bose_headphone_image.3f7ba10c.png"
+    } ,
+
+    {
+      "id" : "y3h2k242-4234-2367-75h6-23653671bdgue" , 
+      "title" : "Samsung Galaxy S23" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 575 ,
+      "image" : "/_next/static/media/samsung_s23phone_image.27298dff.png"
+    } ,
+
+    {
+      "id" : "e3d2k242-4268-8758-74h6-08242641bdgdh" , 
+      "title" : "Garmin Venu 2" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 353.2 ,
+      "image" : "/_next/static/media/venu_watch_image.46f1952e.png"
+    } ,
+
+    {
+      "id" : "e3d2k2352-4228-8758-74h6-08113651bdgfe" , 
+      "title" : "Play Station 5" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 700.43 ,
+      "image" : "/_next/static/media/playstation_image.2672d14e.png"
+    } ,
+
+    {
+      "id" : "e3r3k462-3254-8768-r4h6-0ryr3651bdgfe" , 
+      "title" : "Cannon EOS R5" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 242 ,
+      "image" : "/_next/static/media/cannon_camera_image (1).9194776f.png"
+    } ,
+
+    {
+      "id" : "7b3e3361-0951-40fb-9fef-c0309465a864" , 
+      "title" : "MacBook Pro 16" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 1241 ,
+      "image" : "/_next/static/media/macbook_image.16320946.png"
+    } ,
+
+    {
+      "id" : "43a57fce-a1b8-4bad-88c6-379bd4ada47b" , 
+      "title" : "Sony WF-1000XM5" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 124.1 ,
+      "image" : "/_next/static/media/sony_airbuds_image.02f407bd.png"
+    } ,
+
+    {
+      "id" : "d759e8bb-60b5-4c7f-ac7c-5eb69cab89e1" , 
+      "title" : "Samsung Projector 4K" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 1422.42 ,
+      "image" : "/_next/static/media/projector_image.602b8a46.png"
+    } ,
+
+    {
+      "id" : "7a2b359a-97f8-4e10-bb2e-224c50a94b41" , 
+      "title" : "ASUS ROG Zephyrus G16" , 
+      "description" : "Apple Air Pods Pro 2nd gen with...",
+      "price" : 2421.1 ,
+      "image" : "/_next/static/media/asus_laptop_image.1e537dac.png"
+    }
+  ] , 
+
+  "Cart" : [
+    
+  ]
+}

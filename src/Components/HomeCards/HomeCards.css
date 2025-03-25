@@ -1,0 +1,8 @@
+.animation{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.animation:hover{
+    transform: translateY(-17px);
+}

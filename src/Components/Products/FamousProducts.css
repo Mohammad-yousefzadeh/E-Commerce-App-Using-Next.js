@@ -1,0 +1,8 @@
+.products-anim{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.products-anim:hover{
+    transform: scale(1.06);
+}
