@@ -1,6 +1,6 @@
 
 import axios from "axios";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import FormatCurrency from "@/src/Utility/FormatCurrency";
@@ -17,7 +17,7 @@ export interface ProductData {
 
 const FamousProducts = async() => {
     
-    const {data} = await axios.get("http://localhost:8000/Products")
+    const {data} = await axios.get("https://e-commerce-api-u657.onrender.com/Products")
       
     return (
         <>
