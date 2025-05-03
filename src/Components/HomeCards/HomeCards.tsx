@@ -1,4 +1,4 @@
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Container, Row } from "react-bootstrap";
 import "./HomeCards.css"
 import image from "../../Assets/boy_with_laptop_image.png"
 import Link from "next/link";

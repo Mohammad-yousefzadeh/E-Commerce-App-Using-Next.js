@@ -33,7 +33,7 @@ const IdProductPage = ({data , id} : IProductProps) => {
     }
     
     useEffect(()=>{
-        setProduct(item=>{
+        setProduct(()=>{
             const result = data.find((item : IProduct)=>{
                 return item.id === id
             })

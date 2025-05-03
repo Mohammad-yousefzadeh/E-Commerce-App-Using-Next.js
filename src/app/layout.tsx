@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navbar from "../Components/Navbar";
 import ContextLayout from "../context/layout";
 
 export const metadata: Metadata = {

@@ -9,7 +9,7 @@ interface IProductId {
 const ProductsId = async(porps : IProductId) => {
     
     const {id} = await porps.params
-    const {data} = await axios.get('http://localhost:8000/Products')
+    const {data} = await axios.get('https://e-commerce-api-u657.onrender.com/Products')
 
     return (
         <>
