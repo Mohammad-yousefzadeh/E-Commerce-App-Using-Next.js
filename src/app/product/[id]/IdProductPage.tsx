@@ -1,6 +1,6 @@
 "use client"
 import FormatCurrency from "@/src/Utility/FormatCurrency";
-import { faCheck, faCheckCircle, faCircleCheck, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { redirect } from "next/navigation";
 import { useContext, useEffect, useState } from "react";

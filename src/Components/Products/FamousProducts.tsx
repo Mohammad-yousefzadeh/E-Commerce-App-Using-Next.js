@@ -26,7 +26,7 @@ const FamousProducts = async() => {
                     {
                         data.map((item : ProductData , index : number)=>(
                             index < 8 &&
-                            <Link href={`/product/${item.id}`} key={index} 
+                            <Link href={`/product/${item.id}`} key={item.id} 
                             className="col-12 col-md-4 col-lg-3 text-decoration-none text-black p-3 px-lg-5 py-lg-2">
                                 <div className="bg-secondary-subtle rounded mb-2">
                                     <img src={item.image} className="w-100 products-anim" alt="" />

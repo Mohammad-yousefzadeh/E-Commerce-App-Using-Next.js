@@ -9,7 +9,7 @@ import { Container, Row } from "react-bootstrap";
 
 const Products = async() => {
 
-    const {data} = await axios.get("http://localhost:8000/Products")
+    const {data} = await axios.get("https://e-commerce-api-u657.onrender.com/Products")
     
     return (
         <>
