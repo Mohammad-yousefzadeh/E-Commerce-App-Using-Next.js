@@ -28,7 +28,7 @@ const Products = async() => {
                                 </div>
                                 <h5>{item.title}</h5>
                                 <span className="text-secondary mt-2">{item.description}</span>
-                                <p>4.5 {Array(5).fill("").map(e =>(
+                                <p>4.5 {Array(5).fill("").map(() =>(
                                     <FontAwesomeIcon style={{color : "orange"}} icon={faStar} />
                                 ))}</p>
                                 <div className="d-flex justify-content-between">

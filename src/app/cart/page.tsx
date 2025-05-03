@@ -20,17 +20,20 @@ const Cart = () => {
                             <h2>Your<span className="text-warning">Cart</span></h2>
                             <h6 className="text-secondary align-content-end">{cartItemsQuantity()} Items</h6>
                         </div>
-                        <table className="table table-borderles mt-4">
-                            <tr>
-                                <th>Product detlails</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                                <th>Total Price</th>
-                            </tr>
+                        <table className="table table-borderless mt-4">
+                            <thead>
+                                <tr>
+                                    <th>Product detlails</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total Price</th>
+                                </tr>
+                            </thead>
                             {
                                 cartProducts.length > 0 ?
                                 cartProducts.map(item=>(
-                                    <tr>
+                                   <tbody>
+                                     <tr>
                                         <td className="d-flex">
                                             <img className="d-none d-lg-flex" src={item.image} style={{width : "100px"}} alt="" />
                                             <div className="justify-content-center align-content-center">
@@ -64,8 +67,11 @@ const Cart = () => {
                                             <span>{FormatCurrency(item.price * item.quantity)}</span>
                                         </td>
                                     </tr>
+                                   </tbody>
                                 )) :
-                                <div></div>
+                                <tbody>
+                                    <tr></tr>
+                                </tbody>
                             }
                         </table>
                         <Link href={'/product'} style={{color : "orange"}}>
