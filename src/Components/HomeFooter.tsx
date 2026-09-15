@@ -22,7 +22,7 @@ const HomeFooter = () => {
                             <li className="mt-2 text-secondary">Privacy policy</li>
                         </ul>
                     </Col>
-                    <Col className="text-center">
+                    <Col className="text-center ">
                         <h6 className="fw-bold mb-4">Get in touch</h6>
                         <ul className="list-unstyled text-secondary">
                             <li>+0192345789</li>
