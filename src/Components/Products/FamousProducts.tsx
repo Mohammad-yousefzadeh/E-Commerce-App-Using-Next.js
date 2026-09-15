@@ -15,12 +15,12 @@ export interface ProductData {
 
 const FamousProducts = async() => {
     
-    const data = products    
+    const data = products     
       
     return (
         <>
             <Container>
-                <Row className="mt-5">
+                <Row className="mt-5  ">
                     <h2 className="mb-3 mb-lg-5 mt-4 text-center fst-italic">Popular products</h2>
                     {
                         data.map((item : ProductData , index : number)=>(
