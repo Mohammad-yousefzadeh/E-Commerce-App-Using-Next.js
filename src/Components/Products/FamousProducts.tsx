@@ -1,9 +1,9 @@
-import axios from "axios";
 import { Container, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import FormatCurrency from "@/src/Utility/FormatCurrency";
 import Link from "next/link";
+import products from "../../data/api.json";
 import "./FamousProducts.css"
 export interface ProductData {
     id : string 
@@ -15,7 +15,7 @@ export interface ProductData {
 
 const FamousProducts = async() => {
     
-    const {data} = await axios.get("http://localhost:3000/api.json")
+    const data = products    
       
     return (
         <>

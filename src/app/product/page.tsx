@@ -2,18 +2,13 @@ import { ProductData } from "@/src/Components/Products/FamousProducts";
 import FormatCurrency from "@/src/Utility/FormatCurrency";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import products from "../../data/api.json"
 import Link from "next/link";
 import { Container, Row } from "react-bootstrap";
 
 const Products = async () => {
-  const res = await fetch("http://localhost:3000/api.json");
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch products");
-  }
-
-  const data: ProductData[] = await res.json();
-
+  const data = products;
+  
   return (
     <>
       <Container>

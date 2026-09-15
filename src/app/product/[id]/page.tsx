@@ -1,4 +1,5 @@
 import IdProductPage from "./IdProductPage";
+import products from "../../../data/api.json"
 
 interface IProductId {
     params : Promise<{id : string}>
@@ -8,8 +9,7 @@ interface IProductId {
 const ProductsId = async ({ params }: IProductId) => {
   const { id } = await params;
 
-  const res = await fetch("http://localhost:3000/api.json");
-  const data = await res.json();
+  const data = products;
 
   console.log("data:", data);
 
