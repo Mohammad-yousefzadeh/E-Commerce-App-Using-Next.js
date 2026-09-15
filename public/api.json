@@ -1,0 +1,72 @@
+[
+  {
+    "id": "e3d2k242-4268-8758-74h6-08653651bdgfe",
+    "title": "Apple Air Pods Pro",
+    "description": "Apple Air Pods Pro 2nd gen with...",
+    "price": 149.23,
+    "image": "/Assets/apple_earphone_image.png"
+  },
+  {
+    "id": "e3d2k242-4268-8758-74h6-08653651shhfe",
+    "title": "Bose Quite Comfort 45",
+    "description": "Bose Quite Comfort 45 headphones",
+    "price": 242.4,
+    "image": "/Assets/bose_headphone_image.png"
+  },
+  {
+    "id": "y3h2k242-4234-2367-75h6-23653671bdgue",
+    "title": "Samsung Galaxy S23",
+    "description": "Samsung Galaxy S23 smartphone",
+    "price": 575,
+    "image": "/Assets/samsung_s23phone_image.png"
+  },
+  {
+    "id": "e3d2k242-4268-8758-74h6-08242641bdgdh",
+    "title": "Garmin Venu 2",
+    "description": "Garmin Venu 2 smartwatch",
+    "price": 353.2,
+    "image": "/Assets/venu_watch_image.png"
+  },
+  {
+    "id": "e3d2k2352-4228-8758-74h6-08113651bdgfe",
+    "title": "Play Station 5",
+    "description": "Play Station 5 gaming console",
+    "price": 700.43,
+    "image": "/Assets/playstation_image.png"
+  },
+  {
+    "id": "e3r3k462-3254-8768-r4h6-0ryr3651bdgfe",
+    "title": "Cannon EOS R5",
+    "description": "Cannon EOS R5 camera",
+    "price": 242,
+    "image": "/Assets/cannon_camera_image (1).png"
+  },
+  {
+    "id": "7b3e3361-0951-40fb-9fef-c0309465a864",
+    "title": "MacBook Pro 16",
+    "description": "MacBook Pro 16 laptop",
+    "price": 1241,
+    "image": "/Assets/macbook_image.png"
+  },
+  {
+    "id": "43a57fce-a1b8-4bad-88c6-379bd4ada47b",
+    "title": "Sony WF-1000XM5",
+    "description": "Sony WF-1000XM5 earbuds",
+    "price": 124.1,
+    "image": "/Assets/sony_airbuds_image.png"
+  },
+  {
+    "id": "d759e8bb-60b5-4c7f-ac7c-5eb69cab89e1",
+    "title": "Samsung Projector 4K",
+    "description": "Samsung Projector 4K",
+    "price": 1422.42,
+    "image": "/Assets/projector_image.png"
+  },
+  {
+    "id": "7a2b359a-97f8-4e10-bb2e-224c50a94b41",
+    "title": "ASUS ROG Zephyrus G16",
+    "description": "ASUS ROG Zephyrus G16",
+    "price": 2421.1,
+    "image": "/Assets/asus_laptop_image.png"
+  }
+]

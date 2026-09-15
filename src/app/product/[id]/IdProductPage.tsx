@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { redirect } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+// CSS is loaded for its side effects; TypeScript may not have a declaration for it.
+// @ts-expect-error -- Next.js handles this stylesheet import at build time.
 import "./idProductPage.css"
 import Link from "next/link";
 import { AppContext } from "@/src/context/AppContext";
@@ -61,15 +63,15 @@ const IdProductPage = ({data , id} : IProductProps) => {
                 <Row>
                     {
                         product.map(item =>(
-                            <>
-                                <Col sm={12} md={6}>
+                            <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center" key={item?.id}>
+                                <Col sm={12} lg={6}>
                                     <img src={item?.image} className="w-100 " alt="" />
                                 </Col>
-                                <Col sm={12} md={6} className="align-content-center">
+                                <Col sm={12} lg={6} className="align-content-center">
                                     <h2>{item?.title}</h2>
                                     <div> 4.5 {
-                                        Array(5).fill("").map(()=>(
-                                            <FontAwesomeIcon icon={faStar} className="text-warning" />
+                                        Array(5).fill("").map((e, index)=>(
+                                            <FontAwesomeIcon key={index} icon={faStar} className="text-warning" />
                                         ))
                                     }</div>
                                     <p className="text-secondary-emphasis my-4">Lorem ipsum dolor sit amet
@@ -92,7 +94,7 @@ const IdProductPage = ({data , id} : IProductProps) => {
                                         <Link href={'/cart'} className="btn btn-warning form-control mx-2 py-2">Buy Now</Link>
                                     </div>
                                 </Col>
-                            </>
+                            </div>
                         ))
                     }
                 </Row>

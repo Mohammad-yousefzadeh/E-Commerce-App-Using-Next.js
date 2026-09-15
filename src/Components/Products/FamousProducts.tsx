@@ -5,7 +5,6 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import FormatCurrency from "@/src/Utility/FormatCurrency";
 import Link from "next/link";
 import "./FamousProducts.css"
-
 export interface ProductData {
     id : string 
     title : string
@@ -16,7 +15,7 @@ export interface ProductData {
 
 const FamousProducts = async() => {
     
-    const {data} = await axios.get("https://e-commerce-api-u657.onrender.com/Products")
+    const {data} = await axios.get("http://localhost:3000/api.json")
       
     return (
         <>
@@ -33,8 +32,8 @@ const FamousProducts = async() => {
                                 </div>
                                 <h5>{item.title}</h5>
                                 <span className="text-secondary mt-2">{item.description}</span>
-                                <p>4.5 {Array(5).fill("").map(e =>(
-                                    <FontAwesomeIcon style={{color : "orange"}} icon={faStar} />
+                                <p>4.5 {Array(5).fill("").map((e, index) =>(
+                                    <FontAwesomeIcon key={index} style={{color : "orange"}} icon={faStar} />
                                 ))}</p>
                                 <div className="d-flex justify-content-between">
                                     <p className="fw-bolder">{FormatCurrency(item.price)}</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 
 const HomeFooter = () => {
@@ -14,11 +15,11 @@ const HomeFooter = () => {
                     </Col>
                     <Col className="text-center">
                         <h6 className="fw-bold mb-4">Company</h6>
-                        <ul className="list-unstyled text-secondary">
-                            <li>Home</li>
-                            <li className="mt-2">About</li>
-                            <li className="mt-2">Contact us</li>
-                            <li className="mt-2">Privacy policy</li>
+                        <ul className="list-unstyled d-flex flex-column gap-1">
+                            <Link className="text-secondary text-decoration-none" href={'/'}>Home</Link>
+                            <Link href={'/about'} className="mt-2 text-secondary text-decoration-none">About</Link>
+                            <Link href={'/contact'} className="mt-2 text-secondary text-decoration-none ">Contact us</Link>
+                            <li className="mt-2 text-secondary">Privacy policy</li>
                         </ul>
                     </Col>
                     <Col className="text-center">

@@ -16,8 +16,8 @@ const Navbar = () => {
                     <Col className="d-flex justify-content-center align-items-center d-none d-lg-flex">
                         <Link href={'/'} className="me-3 nav-link">Home</Link>
                         <Link href={'/product'} className="me-3 nav-link">Shop</Link>
-                        <Link href={'#about-us'} className="me-3 nav-link">About us</Link>
-                        <Link href={'#contact'} className="nav-link">Contact</Link>
+                        <Link href={'/about'} className="me-3 nav-link">About us</Link>
+                        <Link href={'/contact'} className="nav-link">Contact</Link>
                     </Col>
                     <Col className="text-center align-content-center">
                         <FontAwesomeIcon icon={faSearch}

@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useState } from "react";
 
 const UseLocalStorage = <T>(key : string , initialValue : T | (()=> T)) => {

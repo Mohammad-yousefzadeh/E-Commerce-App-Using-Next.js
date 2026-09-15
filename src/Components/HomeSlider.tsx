@@ -3,9 +3,9 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import playStation from "../Assets/header_playstation_image.png"
-import macBook from "../Assets/header_macbook_image.png"
-import headPhone from "../Assets/header_headphone_image.png"
+import playStation from "../../public/Assets/header_playstation_image.png"
+import macBook from "../../public/Assets/header_macbook_image.png"
+import headPhone from "../../public/Assets/header_headphone_image.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, Navigation } from "swiper/modules";
 import 'swiper/css';

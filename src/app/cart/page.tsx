@@ -32,7 +32,7 @@ const Cart = () => {
                             {
                                 cartProducts.length > 0 ?
                                 cartProducts.map(item=>(
-                                   <tbody>
+                                   <tbody key={item?.id}>
                                      <tr>
                                         <td className="d-flex">
                                             <img className="d-none d-lg-flex" src={item.image} style={{width : "100px"}} alt="" />

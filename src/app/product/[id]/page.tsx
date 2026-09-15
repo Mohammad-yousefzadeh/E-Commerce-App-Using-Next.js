@@ -1,21 +1,19 @@
-import axios from "axios";
 import IdProductPage from "./IdProductPage";
 
 interface IProductId {
     params : Promise<{id : string}>
-    searchParams : Promise<{}>
+    searchParams : Promise<unknown>
 }
 
-const ProductsId = async(porps : IProductId) => {
-    
-    const {id} = await porps.params
-    const {data} = await axios.get('https://e-commerce-api-u657.onrender.com/Products')
+const ProductsId = async ({ params }: IProductId) => {
+  const { id } = await params;
 
-    return (
-        <>
-            <IdProductPage data={data} id={id} />
-        </>
-    );
-}
+  const res = await fetch("http://localhost:3000/api.json");
+  const data = await res.json();
+
+  console.log("data:", data);
+
+  return <IdProductPage data={data} id={id} />;
+};
  
 export default ProductsId;

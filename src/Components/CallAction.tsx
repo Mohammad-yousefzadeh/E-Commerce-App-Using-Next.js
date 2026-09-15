@@ -1,6 +1,6 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
-import SoundBox from "../Assets/jbl_soundbox_image.png"
-import ControllerImage from "../Assets/sm_controller_image.png"
+import SoundBox from "../../public/Assets/jbl_soundbox_image.png"
+import ControllerImage from "../../public/Assets//sm_controller_image.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
