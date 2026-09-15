@@ -29,7 +29,7 @@ const HomeFooter = () => {
                             <li className="mt-2">QuickCart@gmail.com</li>
                         </ul>
                     </Col>
-                    <hr className="mt-4" />
+                    <hr className="mt-4 " /> 
                     <p className="text-center fw-bold">Copyright 2025 &Copy; Mohammad Yousefzadeh</p>
                 </Row>
             </Container>
