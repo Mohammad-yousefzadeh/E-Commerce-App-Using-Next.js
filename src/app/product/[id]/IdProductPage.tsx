@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { redirect } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-// CSS is loaded for its side effects; TypeScript may not have a declaration for it.
-// @ts-expect-error -- Next.js handles this stylesheet import at build time.
 import "./idProductPage.css"
 import Link from "next/link";
 import { AppContext } from "@/src/context/AppContext";

@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-// Bootstrap does not provide TypeScript declarations for its CSS side-effect import.
-// @ts-expect-error -- the stylesheet is resolved by Next.js at build time.
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContextLayout from "../context/layout";
 import HomeFooter from "../Components/HomeFooter";

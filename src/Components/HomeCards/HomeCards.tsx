@@ -1,5 +1,4 @@
 import { Button, Container, Row } from "react-bootstrap";
-// @ts-expect-error CSS is processed by Next.js at build time.
 import "./HomeCards.css"
 import Link from "next/link";
 
